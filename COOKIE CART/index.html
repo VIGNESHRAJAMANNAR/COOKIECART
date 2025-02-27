@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRST BITE</title>
+    <link rel="icon" href="cookie.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🍪FIRST BITE</h1>
+
+    <!-- Product List -->
+    <div class="product-list">
+        <div class="product">
+            <img src="Chocolate Chip Cookies.jpg">
+            <p>Chocolate Chip - Rs10</p>
+            <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Black & White Cookies.jpg">
+            <p>Almond Biscotti - Rs15</p>
+            <button onclick="addToCart('Product 2', 15)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="white cookies.jpg">
+            <p>White Chocolate Raspberry - Rs20</p>
+            <button onclick="addToCart('Product 3', 20)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Sugar Cookies.jpg">
+            <p>Sugar  - Rs20</p>
+            <button onclick="addToCart('Product 3', 20)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="White Chocolate Macadamia Nut Cookies.jpg">
+            <p>Molasses - Rs20</p>
+            <button onclick="addToCart('Product 3', 20)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="back.jpg">
+            <p>Double Chocolate - Rs20</p>
+            <button onclick="addToCart('Product 3', 20)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Snickerdoodle.jpg">
+            <p>Macadamia Nut - Rs20</p>
+            <button onclick="addToCart('Product 3', 20)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Peanut Butter Cookies.jpg">
+            <p>Peanut Butter - Rs20</p>
+            <button onclick="addToCart('Product 3', 20)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="middle.jpg">
+            <p>Snickerdoodle - Rs20</p>
+            <button onclick="addToCart('Product 3', 20)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Gingerbread Cookies.jpg">
+            <p>Gingerbread - Rs20</p>
+            <button onclick="addToCart('Product 3', 20)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="Oatmeal Raisin Cookies.jpg">
+            <p>Oatmeal Raisin - Rs20</p>
+            <button onclick="addToCart('Product 3', 20)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="darkcookie.jpg">
+            <p>Shortbread - Rs20</p>
+            <button onclick="addToCart('Product 3', 20)">Add to Cart</button>
+        </div>
+
+
+
+    </div>
+
+    <!-- Shopping Cart -->
+    <div class="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="total-price">0</span></p>
+        <button onclick="clearCart()">Clear Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
